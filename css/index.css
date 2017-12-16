@@ -84,7 +84,7 @@ footer {
 	align-items: center;
 	align-self: flex-end;
 	width: 100%;
-	background-color: #fff;
+	background: -moz-linear-gradient(right, #ff0052, #8e2b88);
 }
 
 #footer {
@@ -93,4 +93,13 @@ footer {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+
+
+}
+
+#github-logo{
+	-moz-border-radius: 50px;
+	border-radius: 50px;
 }
